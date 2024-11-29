@@ -1,0 +1,36 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style pour la galerie */
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Zoom sur l'image au survol */
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Conteneur de l'image affichée */
+#image {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
